@@ -59,30 +59,26 @@ struct HomeView: View {
         }
     }
     
+    var columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    
     var body: some View {
-        NavigationView {
             ZStack {
+                Color(.secondary).ignoresSafeArea(.all)
                 VStack {
-                    HStack {
-                        VStack {
-                            ForEach (1..<8, id: \.self) { i in
-                                HStack {
-                                    SoundButton(index: i, notes: $notes) {
-                                        onClick(index: i)
-                                    }
-                                }
-                                Spacer (minLength: 30)
-                            }
-                        }
-                        Spacer (minLength: 30)
-                        VStack {
-                            ForEach (8..<15, id: \.self) { i in
-                                HStack {
-                                    SoundButton(index: i, notes: $notes) {
-                                        onClick(index: i)
-                                    }
-                                }
-                                Spacer (minLength: 30)
+                    Text("Music Puzzle")
+                        .fontWeight(.bold)
+                        .font(.system(.title, design: .rounded))
+                        .foregroundColor(Color(.primary))
+                    
+                    Spacer()
+                    
+                    LazyVGrid(columns: columns) {
+                        ForEach (1..<15, id: \.self) { i in
+                            SoundButton(index: i, notes: $notes) {
+                                onClick(index: i)
                             }
                         }
                     }
@@ -93,13 +89,8 @@ struct HomeView: View {
                     }
                     Spacer(minLength: 30)
                 }
-                .padding(30)
-            }
-            .navigationTitle("Music Puzzle")
-            .navigationBarTitleDisplayMode(.inline)
-            .background(Color(.secondary).ignoresSafeArea())
+                .padding()
         }
-        .navigationViewStyle(.stack)
     }
 }
 
