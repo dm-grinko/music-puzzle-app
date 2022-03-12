@@ -1,47 +1,38 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  Music Puzzle
 //
-//  Created by Dmitry Grinko on 2/20/22.
+//  Created by Dmitry Grinko on 3/12/22.
 //
 
 import SwiftUI
+
 struct HomeView: View {
-    @ObservedObject var vm = ViewModel()
-    
-    private var columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible())
-    ]
-    
     var body: some View {
-        ZStack {
-            Color(.secondary).ignoresSafeArea(.all)
-            VStack {
-                Text("Music Puzzle")
-                    .fontWeight(.bold)
-                    .font(.system(.title, design: .rounded))
-                    .foregroundColor(Color(.dark))
-                
-                Spacer()
-                
-                LazyVGrid(columns: columns) {
-                    ForEach (1..<15, id: \.self) { i in
-                        NoteButtonView(index: i, notes: $vm.notes) {
-                            vm.onNoteClick(index: i)
-                        }
+        NavigationView {
+            ZStack {
+                Color(.secondary).ignoresSafeArea(.all)
+                VStack {
+                    Spacer()
+                    
+                    TitleView()
+                    
+                    Text("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).")
+                        .padding()
+                    
+                    Spacer()
+                    
+                    Navigator.navigator(.game) {
+                        Text("Start")
+                            .padding()
+                            .background(Color(.primary))
+                            .foregroundColor(Color(.white))
                     }
-                    StartButtonView() {
-                        vm.notes = vm.shuffle()
-                    }
+                    
+                    Spacer()
                 }
-                
-                Spacer()
-                
             }
-            .padding()
-        }
+        }.accentColor(Color(.dark))
     }
 }
 

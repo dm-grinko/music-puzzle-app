@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+// I use this view for testing StopwatchViewModel only
 struct StopwatchView: View {
     @ObservedObject var stopwatch = StopwatchViewModel()
         

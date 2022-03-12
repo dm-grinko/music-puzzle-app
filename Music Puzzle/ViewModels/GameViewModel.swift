@@ -27,36 +27,40 @@ let defaultNotes: [Int: Note] = [
     14: .init(fileName: "note7", index: 14, status: Status.ON)
 ]
 
-extension HomeView {
+extension GameView {
     class ViewModel: ObservableObject {
         @Published var prevNote: Note?
         @Published var notes: [Int: Note] = defaultNotes
         
         init () {
-            notes = shuffle()
+            print("init game view model")
+            shuffle()
         }
         
-        func shuffle() -> [Int:Note] {
-            var arr = defaultNotes
+        func shuffle() {
+            var dict = defaultNotes
             // shuffle items 10 times
             (1..<10).forEach { i in
                 let firstKey = Int.random(in: 1..<15)
                 let secondKey = Int.random(in: 1..<15)
-                let temp = arr[firstKey]
-                arr[firstKey] = arr[secondKey]
-                arr[secondKey] = temp
+                let temp = dict[firstKey]
+                dict[firstKey] = dict[secondKey]
+                dict[secondKey] = temp
             }
 
             // fix order after shuffling
-            for (key, value) in arr {
-                arr[key] = Note(
+            // value of note.index should be equal to its index in the dictionary notes
+            for (key, value) in dict {
+                dict[key] = Note(
                     fileName: value.fileName,
                     index: key,
                     status: value.status
                 )
             }
             
-            return arr
+            print("shuffled")
+            
+            notes = dict
         }
         
         private func playNote (fileName: String) {

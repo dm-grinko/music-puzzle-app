@@ -10,9 +10,8 @@
 		8553CFBF27D700D00068DF21 /* NoteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8553CFBE27D700D00068DF21 /* NoteButtonView.swift */; };
 		8553CFC127D701560068DF21 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8553CFC027D701560068DF21 /* StartButtonView.swift */; };
 		856FA68227C300B1000D935B /* Music_PuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FA68127C300B1000D935B /* Music_PuzzleApp.swift */; };
-		856FA68427C300B1000D935B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FA68327C300B1000D935B /* HomeView.swift */; };
+		856FA68427C300B1000D935B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FA68327C300B1000D935B /* GameView.swift */; };
 		856FA68627C300B2000D935B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856FA68527C300B2000D935B /* Assets.xcassets */; };
-		856FA68927C300B2000D935B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856FA68827C300B2000D935B /* Preview Assets.xcassets */; };
 		856FA6A627C42299000D935B /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA69F27C42299000D935B /* note5.wav */; };
 		856FA6A727C42299000D935B /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A027C42299000D935B /* note4.wav */; };
 		856FA6A827C42299000D935B /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A127C42299000D935B /* note3.wav */; };
@@ -20,11 +19,16 @@
 		856FA6AA27C42299000D935B /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A327C42299000D935B /* note1.wav */; };
 		856FA6AB27C42299000D935B /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A427C42299000D935B /* note6.wav */; };
 		856FA6AC27C42299000D935B /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A527C42299000D935B /* note7.wav */; };
+		8575FED827DD2442008A3700 /* NoteButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575FED727DD2442008A3700 /* NoteButtonViewModel.swift */; };
+		8575FEDA27DD2ABC008A3700 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575FED927DD2ABC008A3700 /* ScoreView.swift */; };
+		8575FEDC27DD2ACE008A3700 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575FEDB27DD2ACE008A3700 /* HomeView.swift */; };
+		8575FEDE27DD3140008A3700 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575FEDD27DD3140008A3700 /* TitleView.swift */; };
+		8575FEE127DD33D2008A3700 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575FEE027DD33D2008A3700 /* Navigator.swift */; };
 		85C855F427DD03C8000AD8BB /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C855F327DD03C8000AD8BB /* StopwatchView.swift */; };
 		85C855F827DD0DF8000AD8BB /* StopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C855F727DD0DF8000AD8BB /* StopwatchViewModel.swift */; };
 		85E00E3527D82BB300EF13B5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3427D82BB300EF13B5 /* Colors.swift */; };
 		85E00E3A27D9818F00EF13B5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3927D9818F00EF13B5 /* Note.swift */; };
-		85E00E3C27D9949900EF13B5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3B27D9949900EF13B5 /* HomeViewModel.swift */; };
+		85E00E3C27D9949900EF13B5 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3B27D9949900EF13B5 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +36,8 @@
 		8553CFC027D701560068DF21 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		856FA67E27C300B1000D935B /* Music Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856FA68127C300B1000D935B /* Music_PuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PuzzleApp.swift; sourceTree = "<group>"; };
-		856FA68327C300B1000D935B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		856FA68327C300B1000D935B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		856FA68527C300B2000D935B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		856FA68827C300B2000D935B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		856FA69F27C42299000D935B /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
 		856FA6A027C42299000D935B /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
 		856FA6A127C42299000D935B /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
@@ -42,11 +45,16 @@
 		856FA6A327C42299000D935B /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 		856FA6A427C42299000D935B /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 		856FA6A527C42299000D935B /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		8575FED727DD2442008A3700 /* NoteButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteButtonViewModel.swift; sourceTree = "<group>"; };
+		8575FED927DD2ABC008A3700 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		8575FEDB27DD2ACE008A3700 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8575FEDD27DD3140008A3700 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		8575FEE027DD33D2008A3700 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		85C855F327DD03C8000AD8BB /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
 		85C855F727DD0DF8000AD8BB /* StopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewModel.swift; sourceTree = "<group>"; };
 		85E00E3427D82BB300EF13B5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		85E00E3927D9818F00EF13B5 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		85E00E3B27D9949900EF13B5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		85E00E3B27D9949900EF13B5 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,24 +87,16 @@
 		856FA68027C300B1000D935B /* Music Puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				8575FEDF27DD33AD008A3700 /* Helpers */,
 				85E00E3827D9342500EF13B5 /* Models */,
 				85E00E3727D9342200EF13B5 /* Views */,
 				85E00E3627D9341F00EF13B5 /* ViewModels */,
 				856FA68127C300B1000D935B /* Music_PuzzleApp.swift */,
 				856FA6AD27C43D85000D935B /* Sounds */,
 				856FA68527C300B2000D935B /* Assets.xcassets */,
-				856FA68727C300B2000D935B /* Preview Content */,
 				85E00E3427D82BB300EF13B5 /* Colors.swift */,
 			);
 			path = "Music Puzzle";
-			sourceTree = "<group>";
-		};
-		856FA68727C300B2000D935B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				856FA68827C300B2000D935B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		856FA6AD27C43D85000D935B /* Sounds */ = {
@@ -113,11 +113,20 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		8575FEDF27DD33AD008A3700 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8575FEE027DD33D2008A3700 /* Navigator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		85E00E3627D9341F00EF13B5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				85E00E3B27D9949900EF13B5 /* HomeViewModel.swift */,
+				85E00E3B27D9949900EF13B5 /* GameViewModel.swift */,
 				85C855F727DD0DF8000AD8BB /* StopwatchViewModel.swift */,
+				8575FED727DD2442008A3700 /* NoteButtonViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -125,10 +134,13 @@
 		85E00E3727D9342200EF13B5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				856FA68327C300B1000D935B /* HomeView.swift */,
+				856FA68327C300B1000D935B /* GameView.swift */,
 				8553CFBE27D700D00068DF21 /* NoteButtonView.swift */,
 				8553CFC027D701560068DF21 /* StartButtonView.swift */,
 				85C855F327DD03C8000AD8BB /* StopwatchView.swift */,
+				8575FED927DD2ABC008A3700 /* ScoreView.swift */,
+				8575FEDB27DD2ACE008A3700 /* HomeView.swift */,
+				8575FEDD27DD3140008A3700 /* TitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,7 +214,6 @@
 				856FA6AC27C42299000D935B /* note7.wav in Resources */,
 				856FA6A627C42299000D935B /* note5.wav in Resources */,
 				856FA6AB27C42299000D935B /* note6.wav in Resources */,
-				856FA68927C300B2000D935B /* Preview Assets.xcassets in Resources */,
 				856FA68627C300B2000D935B /* Assets.xcassets in Resources */,
 				856FA6A927C42299000D935B /* note2.wav in Resources */,
 				856FA6AA27C42299000D935B /* note1.wav in Resources */,
@@ -218,14 +229,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856FA68427C300B1000D935B /* HomeView.swift in Sources */,
+				856FA68427C300B1000D935B /* GameView.swift in Sources */,
 				85E00E3527D82BB300EF13B5 /* Colors.swift in Sources */,
-				85E00E3C27D9949900EF13B5 /* HomeViewModel.swift in Sources */,
+				85E00E3C27D9949900EF13B5 /* GameViewModel.swift in Sources */,
 				85E00E3A27D9818F00EF13B5 /* Note.swift in Sources */,
+				8575FED827DD2442008A3700 /* NoteButtonViewModel.swift in Sources */,
 				8553CFC127D701560068DF21 /* StartButtonView.swift in Sources */,
 				8553CFBF27D700D00068DF21 /* NoteButtonView.swift in Sources */,
+				8575FEE127DD33D2008A3700 /* Navigator.swift in Sources */,
+				8575FEDA27DD2ABC008A3700 /* ScoreView.swift in Sources */,
 				85C855F827DD0DF8000AD8BB /* StopwatchViewModel.swift in Sources */,
+				8575FEDC27DD2ACE008A3700 /* HomeView.swift in Sources */,
 				856FA68227C300B1000D935B /* Music_PuzzleApp.swift in Sources */,
+				8575FEDE27DD3140008A3700 /* TitleView.swift in Sources */,
 				85C855F427DD03C8000AD8BB /* StopwatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Music Puzzle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = N9366ET49G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -385,7 +401,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Music Puzzle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = N9366ET49G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
