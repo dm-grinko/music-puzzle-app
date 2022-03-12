@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8553CFBF27D700D00068DF21 /* SoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8553CFBE27D700D00068DF21 /* SoundButton.swift */; };
-		8553CFC127D701560068DF21 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8553CFC027D701560068DF21 /* StartButton.swift */; };
+		8553CFBF27D700D00068DF21 /* NoteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8553CFBE27D700D00068DF21 /* NoteButtonView.swift */; };
+		8553CFC127D701560068DF21 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8553CFC027D701560068DF21 /* StartButtonView.swift */; };
 		856FA68227C300B1000D935B /* Music_PuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FA68127C300B1000D935B /* Music_PuzzleApp.swift */; };
 		856FA68427C300B1000D935B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FA68327C300B1000D935B /* HomeView.swift */; };
 		856FA68627C300B2000D935B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856FA68527C300B2000D935B /* Assets.xcassets */; };
@@ -20,14 +20,16 @@
 		856FA6AA27C42299000D935B /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A327C42299000D935B /* note1.wav */; };
 		856FA6AB27C42299000D935B /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A427C42299000D935B /* note6.wav */; };
 		856FA6AC27C42299000D935B /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 856FA6A527C42299000D935B /* note7.wav */; };
+		85C855F427DD03C8000AD8BB /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C855F327DD03C8000AD8BB /* StopwatchView.swift */; };
+		85C855F827DD0DF8000AD8BB /* StopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C855F727DD0DF8000AD8BB /* StopwatchViewModel.swift */; };
 		85E00E3527D82BB300EF13B5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3427D82BB300EF13B5 /* Colors.swift */; };
 		85E00E3A27D9818F00EF13B5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3927D9818F00EF13B5 /* Note.swift */; };
 		85E00E3C27D9949900EF13B5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E00E3B27D9949900EF13B5 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8553CFBE27D700D00068DF21 /* SoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButton.swift; sourceTree = "<group>"; };
-		8553CFC027D701560068DF21 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		8553CFBE27D700D00068DF21 /* NoteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteButtonView.swift; sourceTree = "<group>"; };
+		8553CFC027D701560068DF21 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		856FA67E27C300B1000D935B /* Music Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856FA68127C300B1000D935B /* Music_PuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PuzzleApp.swift; sourceTree = "<group>"; };
 		856FA68327C300B1000D935B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		856FA6A327C42299000D935B /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 		856FA6A427C42299000D935B /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 		856FA6A527C42299000D935B /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		85C855F327DD03C8000AD8BB /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		85C855F727DD0DF8000AD8BB /* StopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewModel.swift; sourceTree = "<group>"; };
 		85E00E3427D82BB300EF13B5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		85E00E3927D9818F00EF13B5 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		85E00E3B27D9949900EF13B5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				85E00E3B27D9949900EF13B5 /* HomeViewModel.swift */,
+				85C855F727DD0DF8000AD8BB /* StopwatchViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -121,8 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				856FA68327C300B1000D935B /* HomeView.swift */,
-				8553CFBE27D700D00068DF21 /* SoundButton.swift */,
-				8553CFC027D701560068DF21 /* StartButton.swift */,
+				8553CFBE27D700D00068DF21 /* NoteButtonView.swift */,
+				8553CFC027D701560068DF21 /* StartButtonView.swift */,
+				85C855F327DD03C8000AD8BB /* StopwatchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,9 +222,11 @@
 				85E00E3527D82BB300EF13B5 /* Colors.swift in Sources */,
 				85E00E3C27D9949900EF13B5 /* HomeViewModel.swift in Sources */,
 				85E00E3A27D9818F00EF13B5 /* Note.swift in Sources */,
-				8553CFC127D701560068DF21 /* StartButton.swift in Sources */,
-				8553CFBF27D700D00068DF21 /* SoundButton.swift in Sources */,
+				8553CFC127D701560068DF21 /* StartButtonView.swift in Sources */,
+				8553CFBF27D700D00068DF21 /* NoteButtonView.swift in Sources */,
+				85C855F827DD0DF8000AD8BB /* StopwatchViewModel.swift in Sources */,
 				856FA68227C300B1000D935B /* Music_PuzzleApp.swift in Sources */,
+				85C855F427DD03C8000AD8BB /* StopwatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
